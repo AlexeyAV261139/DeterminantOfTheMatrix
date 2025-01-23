@@ -92,9 +92,9 @@ partial class DeterminantForm
         resultLabel.AutoSize = true;
         resultLabel.Location = new Point(18, 205);
         resultLabel.Name = "resultLabel";
-        resultLabel.Size = new Size(38, 15);
+        resultLabel.Size = new Size(60, 15);
         resultLabel.TabIndex = 5;
-        resultLabel.Text = "label1";
+        resultLabel.Text = "Результат";
         // 
         // groupBox1
         // 
@@ -108,7 +108,7 @@ partial class DeterminantForm
         groupBox1.TabStop = false;
         groupBox1.Text = "Режим работы";
         // 
-        // Form1
+        // DeterminantForm
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
@@ -118,7 +118,7 @@ partial class DeterminantForm
         Controls.Add(startButton);
         Controls.Add(matrixDGV);
         FormBorderStyle = FormBorderStyle.FixedDialog;
-        Name = "Form1";
+        Name = "DeterminantForm";
         Text = "Определитель матрицы";
         Load += Form1_Load;
         ((System.ComponentModel.ISupportInitialize)matrixDGV).EndInit();
